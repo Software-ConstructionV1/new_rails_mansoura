@@ -11,5 +11,4 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   get '/users', to:'users#index'
-  # root "posts#index"
 end
