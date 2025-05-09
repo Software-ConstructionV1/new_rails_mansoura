@@ -6,3 +6,4 @@ class UsersController < ApplicationController
     @user = "anas "
   end
 end
+
