@@ -11,4 +11,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  # Example of a route that can be used to test the app
+  get "articles" => "articles#index", as: :articles_index
+  # Example of a route that can be used to test the app
 end
